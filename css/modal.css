@@ -1,0 +1,51 @@
+*{
+    font-family: Arial, Helvetica, sans-serif }
+
+
+.contenedor-modal{
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.749);
+}
+
+.modal{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(119, 147, 240, 0.644);
+    border-radius: 1rem;
+    height: 70%;
+    width: 40%;
+    flex-direction: column;
+    
+}
+
+.div-button{
+    display: flex;
+    width: 60%;
+    height: 60%;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-button button{
+    display: flex;
+    border-radius: 2rem;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    height: 3rem;
+    margin: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.651);
+    border: 2px solid rgb(0, 0, 0);
+    font-weight: 600;
+}
+
